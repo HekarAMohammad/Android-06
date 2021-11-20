@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ico_home"
+        />
+    <item
+        android:id="@+id/favorete"
+        android:icon="@android:drawable/btn_star"
+        android:title="Favorite" />
+    <item android:title="other">
+        <menu>
+            <item
+                android:id="@+id/seting"
+                android:icon="@drawable/ico_seting"
+                android:title="setting"></item>
+
+            <item
+                android:id="@+id/shear"
+                android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Share"></item>
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@android:drawable/btn_radio"
+                android:title="Rate"></item>
+
+            <item
+                android:id="@+id/riveo"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Review"></item>
+
+            <item
+                android:id="@+id/ourapp"
+                android:title="Our App"></item>
+        </menu>
+    </item>
+
+</menu>
